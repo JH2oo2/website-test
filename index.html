@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Website</title>
   <link rel="stylesheet" href="style.css">
+  <script src="carousel.js" defer></script>
 </head>
 <body>
   <header>
@@ -13,8 +14,6 @@
   </header>
 
   <main>
-    <p>Edit this content to make it your own.</p>
-    <button onclick="alert('Hello!')">Click Me</button>
 
     <div class="card-category">
       <img src="images/dummy_600x400_ffffff_cccccc.png" alt="Description of image" class="card-image">
@@ -41,23 +40,27 @@
       </div>
     </div>
 
-    <div class="grid-container">
-      <div class="grid-item">
-        <img src="images/dummy_600x400_ffffff_cccccc.png" alt="Description of image">
-        <div class="item-text">Text</div>
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <div class="carousel-item">
+          <img src="images/dummy_600x400_ffffff_cccccc.png" alt="Description of image">
+          <div class="item-text">Text 1</div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/dummy_600x400_ffffff_cccccc.png" alt="Description of image">
+          <div class="item-text">Text 2</div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/dummy_600x400_ffffff_cccccc.png" alt="Description of image">
+          <div class="item-text">Text 3</div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/dummy_600x400_ffffff_cccccc.png" alt="Description of image">
+          <div class="item-text">Text 4</div>
+        </div>
       </div>
-      <div class="grid-item">
-        <img src="images/dummy_600x400_ffffff_cccccc.png" alt="Description of image">
-        <div class="item-text">Text</div>
-      </div>
-      <div class="grid-item">
-        <img src="images/dummy_600x400_ffffff_cccccc.png" alt="Description of image">
-        <div class="item-text">Text</div>
-      </div>
-      <div class="grid-item">
-        <img src="images/dummy_600x400_ffffff_cccccc.png" alt="Description of image">
-        <div class="item-text">Text</div>
-      </div>
+      <button class="carousel-button prev">‹</button>
+      <button class="carousel-button next">›</button>
     </div>
 
   </main>
