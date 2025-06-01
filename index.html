@@ -8,10 +8,40 @@
   <script src="carousel.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple starter template.</p>
+
+  <div class="topbar">
+    <div class="topbar-container">
+      <div class="topbar-left">
+        <a href="#" class="topbar-link">Stitch Rewards</a>
+        <a href="#" class="topbar-link">Quick Order</a>
+        <a href="#" class="topbar-link">Store Locator</a>
+      </div>
+      <div class="topbar-right">
+        <a href="#" class="topbar-link">Sign Up</a>
+        <span>|</span>
+        <a href="#" class="topbar-link">Log In</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">MyWebsite</div>
+      <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#">Top Thread</a></li>
+          <li><a href="#">Bobbins</a></li>
+          <li><a href="#">Stabilizer</a></li>
+          <li><a href="#">Displays</a></li>
+          <li><a href="#">Nations</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
+
 
   <main>
 
@@ -40,6 +70,7 @@
       </div>
     </div>
 
+    <h2 class="carousel-heading">Featured Products</h2>
     <div class="carousel-container">
       <div class="carousel-track">
         <div class="carousel-item">
@@ -65,10 +96,56 @@
 
   </main>
 
-  <footer>
-    <p>&copy; 2025 Your Name</p>
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>My Website</h4>
+        <ul>
+          <li><a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dignissimos similique impedit vero, pariatur illum, veritatis delectus et laborum cupiditate eligendi, repellat eum distinctio natus vitae sunt! Maiores, commodi ipsam!</a></li>
+
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>SUPPORT</h4>
+        <ul>
+          <li><a href="#">Stitch Rewards</a></li>
+          <li><a href="#">Core Return Program</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Online Dealers</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>USEFUL LINKS</h4>
+        <ul>
+          <li><a href="#">Digital Color Card</a></li>
+          <li><a href="#">Which Bobbin Fits?</a></li>
+          <li><a href="#">Color Conversion</a></li>
+          <li><a href="#">Stabilizer Applications</a></li>
+          <li><a href="#">Selecting a Stabilizer</a></li>
+          <li><a href="#">New Site Features</a></li>
+          <li><a href="#">Institute of Heraldry</a></li>
+          <li><a href="#">Kimberbell Solids</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>ABOUT US</h4>
+        <ul>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Show Schedule</a></li>
+          <li><a href="#">Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="footer-column newsletter">
+        <h4>Newsletter Sign up</h4>
+        <p>Subscribe to our newsletter to unlock exclusive access to promotions, new product launches, and more!</p>
+        <form class="newsletter-form">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
   </footer>
 
-  <script src="script.js"></script>
+
 </body>
 </html>
